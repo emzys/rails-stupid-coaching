@@ -1,0 +1,14 @@
+<%# <h1>answer view!</h1> %>
+<div class="user_question">
+  <%# <p><%= params[:answer].capitalize %>
+  <p><%= @question %></p>
+  <p>-You</p>
+</div>
+
+<div class="coach-answer">
+  <p><%= @answer %></p>
+
+  <p>-Your coach</p>
+</div>
+
+<%= link_to "Ask again!", :ask %>
